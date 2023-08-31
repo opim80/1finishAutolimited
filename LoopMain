@@ -1,6 +1,6 @@
 spawn(function ()
 			while _G.Autofarm == true do
-				loadstring(game:https://raw.githubusercontent.com/opim80/1finishAutolimited/main/LoopMain")()
+				loadstring(game:"https://raw.githubusercontent.com/opim80/1finishAutolimited/main/LoopMain")()
 				wait(10)
 			end
 		end)
