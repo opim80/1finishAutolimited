@@ -1,6 +1,6 @@
 local teleport_table = {
             location1 = Vector3.new(-35, 734, 11), 
-            location2 = Vector3.new(-51, -4, 30)-- your desired position
+            location2 = Vector3.new(-1000, -4, 30)-- your desired position
         }
         
         local tween_s = game:GetService('TweenService')
@@ -21,3 +21,11 @@ local teleport_table = {
         bypass_teleport(teleport_table.location1)
 		wait(0.1)
         bypass_teleport(teleport_table.location2)
+		wait(1)
+		bypass_teleport(teleport_table.location2)
+		wait(1)
+		bypass_teleport(teleport_table.location2)
+		wait(1)
+		bypass_teleport(teleport_table.location2)
+		wait(1)
+		bypass_teleport(teleport_table.location2)
