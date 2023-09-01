@@ -1,6 +1,12 @@
-Instance.new ("Part") part.name = "StandPart" part.Anchored = true part.Shape = Enum.PartType.Block part.Color = Color3.new (1, 1, 1) part.Parent = workspace
-workspace.StandPart.Position = Vector3.new(-1000, 1980, 30)
 print("Script loaded! Part loaded!")
+
+local part = Instance.new("Part")
+part.Name = "StandPart"
+part.Anchored = true
+part.Shape = Enum.PartType.Block
+part.Color = Color3.new(1, 1, 1)
+part.Parent = workspace -- Put the part into the Workspace
+workspace.StandPart.Position = Vector3.new(-1000, 1980, 30)
 
 spawn(function ()
 			while _G.Autofarm == true do
